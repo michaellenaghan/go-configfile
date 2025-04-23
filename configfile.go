@@ -5,13 +5,13 @@
 //
 // You can load config files programmatically:
 //
-//  if _, err := os.Stat("./defaults.conf"); err == nil {
-//    err := configfile.Load("./defaults.conf")
-//    if err != nil {
-//      fmt.Printf("Error loading default config: %v\n", err)
-//    }
-//  }
-
+//	if _, err := os.Stat("./defaults.conf"); err == nil {
+//	  err := configfile.Load("./defaults.conf")
+//	  if err != nil {
+//	    fmt.Printf("Error loading default config: %v\n", err)
+//	  }
+//	}
+//
 // You can load config files on the command-line:
 //
 //	flag.Func("config-file", "Configuration file", configfile.Load)
